@@ -29,9 +29,9 @@
         </ul>
     </nav>
 
-    <section class="hero">
+    <!-- <section class="hero">
         <img src="path/to/hero-image.jpg" alt="Hero Image">
-    </section>
+    </section> -->
 
     <section class="trending-articles">
         <h2>Trending Articles</h2>
