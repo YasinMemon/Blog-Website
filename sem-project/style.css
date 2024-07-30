@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #333; */
+}
+
+head{
+    width: 100%;
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 42px;
+    background-color: black;
+    /* width: 100vw; */
+}
+
+.header h1{
+    color: white;
+}
+
+.header button{
+    padding: 7px 12px;
+    border-radius: 10px;
+    background-color: #78BC58;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    font-weight: bold;
+    font-size: 5vh;
+    background-color: gray;
+    color: white;
+    padding: 3px 0;
+    cursor: pointer;
+    /* width: max-content; */
+}
+
+ul li{
+    list-style-type: none;
+    position: relative;
+    transition: 4s ease-in-out;
+}
+
+ul li:hover{
+    border-bottom: 4px solid red;
+    position: relative;
+}
+
+.card{
+    border: 1px solid black;
+    /* height: 350px; */
+    width: 300px;
+    margin: 45px;
+    border-radius: 4%;
+    text-align: justify;
+    /* cursor: pointer; */
+}
+
+a{
+    color: black;
+}
+
+.cover{
+    height: fit-content;
+    width: 300px;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+.blogCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    height: auto;
+}
+
+.blogTitle{
+    text-align: center;
+}
+
+.blogDes{
+    padding: 4px 12px;
+    color: black;
+}
+
+.blogCards a{
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (width < 500px) {
+    .options{
+        gap: 30px;
+        font-weight: bold;
+        font-size: 2.5vh;
+        padding: 4px;
+        text-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

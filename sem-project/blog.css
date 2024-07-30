@@ -1,0 +1,23 @@
+*{
+    overflow-x: hidden;
+}
+
+.coverImg{
+    width: 80%;
+    height: 60vh;
+    transform: translateX(10%);
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.content{
+    width: 80%;
+    transform: translateX(10%);
+}
+
+.bTitle{
+    transform: translateX(50%);
+    text-align: justify;
+    width: 90%;
+    text-wrap: nowrap;
+}

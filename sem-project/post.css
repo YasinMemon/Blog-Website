@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rebeccapurple;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container div{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 7%;
+    padding: 4px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+}
+
+.lt{
+    font-weight: bold;
+    font-size: 4vh;
+    cursor: pointer;
+}
+
+.back a{
+    color: black;
+    text-decoration: none;
+}
+
+form{
+    background-color: gray;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10vh auto;
+    border-radius: 12px;
+}
+
+form label{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px;
+    background-color: gray;
+
+}
+
+form input{
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    height: 32px;
+    margin-top: 1%;
+    font-size: large;
+    padding: 0.5% 1%;
+    font-weight: bold;
+    background-color: gray;
+    border: 1px solid black;
+    /* margin-bottom: 2px; */
+}
+
+#des{
+    border-radius: 4px;
+    border: 1px solid black;
+    outline: none;
+    font-size:large;
+    padding: 1% 1%;
+    background-color: gray;
+}
+
+form button{
+    width: 170px;
+    margin: auto;
+    margin-top: 2vh;
+    background-color: aqua;
+    padding: 10px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    font-size: large;
+}
+
+#img{
+    cursor: pointer;
+    border: none;
+}
